@@ -41,7 +41,7 @@ namespace SimpleAPI
                 app.UseHsts();
             }
 
-            
+            // Comment HttpsRedirection was not there.
             app.UseMvc();
         }
     }
